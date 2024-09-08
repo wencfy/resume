@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .info-text {
+        @apply text-sm leading-8 text-gray-800;
+    }
+
+    .href-text {
+        @apply hover:text-indigo-500 decoration-dashed decoration-from-font underline underline-offset-4;
+    }
+
+    .detail-container {
+        @apply p-4;
+    }
+
+    .detail-title {
+        @apply text-indigo-500 mb-4 underline underline-offset-8;
+    }
+}
