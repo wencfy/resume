@@ -6,6 +6,7 @@ export const Projects: React.FC<{
     projects: Array<{
         name: string;
         url?: string;
+        description?: string;
         startDate: string;
         endDate?: string;
         location?: string;
@@ -23,6 +24,7 @@ export const Projects: React.FC<{
                         key={i}
                         organization={project.name}
                         url={project.url}
+                        description={project.description}
                         extra={<Tag className="ml-2">Currents</Tag>}
                         startDate={project.startDate}
                         endDate={project.endDate}
