@@ -25,7 +25,7 @@ export const Projects: React.FC<{
                         organization={project.name}
                         url={project.url}
                         description={project.description}
-                        extra={<Tag className="ml-2">Currents</Tag>}
+                        extra={<Tag className="ml-2">Current</Tag>}
                         startDate={project.startDate}
                         endDate={project.endDate}
                         location={project.location}

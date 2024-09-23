@@ -25,7 +25,7 @@ export const Experiences: React.FC<{
                         organization={experience.company}
                         title={experience.position}
                         url={experience.url}
-                        extra={<Tag className="ml-2">Currents</Tag>}
+                        extra={<Tag className="ml-2">Current</Tag>}
                         startDate={experience.startDate}
                         endDate={experience.endDate}
                         location={experience.location}
